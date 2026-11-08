@@ -1,0 +1,9 @@
+data/
+data_raw/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+results/*/predictions.csv
+results/*/traces.csv
+*.log

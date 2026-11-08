@@ -1,0 +1,7 @@
+target time range 156.0 156.0 | P@160h mean 22.4 sd 4.12
+k= 24h  MAE 11.3%  R2 0.177
+k= 48h  MAE 9.3%  R2 0.356
+k= 72h  MAE 9.1%  R2 0.482
+k= 96h  MAE 7.2%  R2 0.647
+k=120h  MAE 4.6%  R2 0.866
+naive MAE % 11.8

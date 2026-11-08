@@ -1,0 +1,15 @@
+assay hours: 3000, other hours: 33000
+mean change in predicted std: assay hours -4.74%  vs other hours -0.66%
+median change: assay -4.31%  vs other -0.66%
+share of steps where std fell: assay 88%  vs other 86%
+Mann-Whitney (assay < other) p = 0.00e+00
+mean change in |error| (g/L): assay -0.262 vs other +0.007
+mean predicted std vs mean |error| by horizon (g/L):
+      std   err
+k              
+24   3.50  2.51
+48   2.78  2.49
+72   1.97  2.25
+96   1.43  1.91
+120  1.13  1.21
+144  1.10  0.69

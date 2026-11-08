@@ -1,0 +1,30 @@
+process columns: ['Time ', 'Aeration rate', 'Agitator RPM', 'Sugar feed rate', 'Acid flow rate', 'Base flow rate', 'Heating/cooling water flow rate', 'Heating water flow rate', 'Water for injection/dilution', 'Air head pressure', 'Dumped broth flow', 'Substrate concentration', 'Dissolved oxygen concentration', 'Penicillin concentration', 'Vessel Volume', 'Vessel Weight', 'pH', 'Temperature', 'Generated heat', 'carbon dioxide percent in off-gas', 'PAA flow', 'PAA concentration offline', 'Oil flow', 'NH_3 concentration off-line', 'Oxygen Uptake Rate', 'Oxygen in percent in off-gas', 'Offline Penicillin concentration', 'Offline Biomass concentratio', 'Carbon evolution rate', 'Ammonia shots', 'Viscosity']
+rows/batch min/med/max: 835 1150.0 1450 | duration h min/max: 167.0 290.0 | median dt h: 0.19999695
+offline 'PAA concentration offline': samples/batch med 21, median gap 12.0 h
+offline 'NH_3 concentration off-line': samples/batch med 21, median gap 12.0 h
+offline 'Offline Penicillin concentration': samples/batch med 21, median gap 12.0 h
+offline 'Offline Biomass concentratio': samples/batch med 21, median gap 12.0 h
+offline 'Viscosity': samples/batch med 21, median gap 12.0 h
+fault flag span per faulty batch (h) - the flag covers the whole batch, so no onset time is available:
+        min    max  count
+Batch                   
+91.0   0.2  258.0   1290
+92.0   0.2  230.0   1150
+93.0   0.2  210.0   1050
+94.0   0.2  230.0   1150
+95.0   0.2  211.0   1055
+96.0   0.2  230.0   1150
+97.0   0.2  225.0   1125
+98.0   0.2  230.0   1150
+99.0   0.2  251.0   1255
+100.0  0.2  230.0   1150
+batch 1: raman (1130, 2200), spectra from 2.200000047683716 h
+batch 61: raman (1205, 2200), spectra from 2.200000047683716 h
+batch 91: raman (1290, 2200), spectra from 2.200000047683716 h
+yield (kg) by group:
+                      mean        std        min        max
+batch                                                      
+recipe 1-30      2913000.0   768000.0  1842000.0  4083000.0
+operator 31-60   2833000.0   680000.0  1474000.0  4196000.0
+Raman/APC 61-90  3484000.0   308000.0  2831000.0  4044000.0
+faults 91-100    2600000.0  1200000.0   891000.0  4448000.0

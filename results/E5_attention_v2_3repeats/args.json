@@ -1,0 +1,1 @@
+{"hourly": "data/hourly.npy", "out": "results/E5_attention_v2_3reps", "folds": 10, "reps": 3, "epochs": 150, "variants": "time,grid,dense", "max_folds": 99, "d": 16, "dropout": 0.2, "wd": 0.01, "lam": 0.05, "anchor": 1, "val_frac": 0.15}
